@@ -14,6 +14,7 @@ Changelog
   - A Grid, where you can select which sprites should be exported and which not
     - Select/Deselect all button
     - Selected sprites should be highlighted
+  - Remove "Atlas Generator" -button when plugin is disabled.. Somehow
 - **Version 1.2 Updates:**
   - Edited 'Width' and 'Height' SpinBoxes
     - Not editable if origin texture not selected

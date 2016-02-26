@@ -35,7 +35,12 @@ func _enter_tree():
 	var button = Button.new()
 	button.set_text("Atlas Generator")
 	button.connect("pressed", self, "_on_button_press")
-	add_custom_control(CONTAINER_TOOLBAR, button)
+	add_custom_control(CONTAINER_CANVAS_EDITOR_MENU, button)
+
+func _exit_scene():
+	print("PLUGIN EXIT")
+	button.set_scale(Vector2(0, 0))
+	button = null
 
 func _on_button_press():
 	scene = preload("generator.tscn").instance()
