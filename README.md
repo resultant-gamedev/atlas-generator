@@ -7,6 +7,9 @@ as input and outputs [AtlasTexture][atex]s according to the sizes given by the u
 For example; If the user inputs an image with sizes 128x128 and inputs 64x64 as Width and Height to the plugin
 it would generate 4 [.atex][atex] files from each corner of the image.
 
+Screenshot:  
+![Screenshot][screenshot]
+
 Changelog
 ---------
 
@@ -32,3 +35,4 @@ Changelog
 [godot]: http://godotengine.org/
 [texture]: http://docs.godotengine.org/en/latest/classes/class_texture.html#class-texture
 [atex]: http://docs.godotengine.org/en/latest/classes/class_atlastexture.html
+[screenshot]: https://i.imgur.com/sSdKvTb.png
